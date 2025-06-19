@@ -4,6 +4,17 @@ st.set_page_config(page_title="File Uploader & Downloader", layout="centered")
 
 st.title("📤 Upload & 📥 Download Your File")
 
+st.markdown("""
+## 📄 Instructions
+
+Welcome to the QA app! Follow these steps to validate that everything works as intended:
+
+1. Upload your file using the uploader below.
+2. Wait for it to be processed.
+3. Download the file once ready.
+
+""")
+
 # File uploader
 uploaded_file = st.file_uploader("Choose a file", type=None)
 
